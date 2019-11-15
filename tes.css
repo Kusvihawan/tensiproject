@@ -1,0 +1,13 @@
+.footer{
+    position: absolute;
+    overflow: hidden;
+    bottom: 0;
+    left: 0;
+}
+
+.footer ::before{
+    content: '';
+    transform: translateY(-20%);
+    position: absolute;
+
+}
